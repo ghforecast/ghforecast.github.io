@@ -6,6 +6,7 @@ on:
 
 jobs:
   fetch_and_cache_data:
+    if: ${{ false }}
     runs-on: ubuntu-latest
 
     steps:
